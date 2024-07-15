@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Film_Quote" directorySegmentName="seg_0" id="E02FCFD5-C48E-29E5-C51D-40333BA61F48">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:51:58 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="5C61FA07-B8B8-9D0F-E43B-747AD288F8F2" value="true"/>
+</engineerTo>
+<sourcePk>EEC570D6-7AB7-15C3-356F-52857F38EE1F</sourcePk>
+<targetPk>5D1B9083-7A35-FF10-6772-F82318698D2C</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7633C5BE-FEF6-BCAB-1162-9561AE8C77BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>02D027BA-31C3-7EE4-FB5B-8260CF6FB813</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

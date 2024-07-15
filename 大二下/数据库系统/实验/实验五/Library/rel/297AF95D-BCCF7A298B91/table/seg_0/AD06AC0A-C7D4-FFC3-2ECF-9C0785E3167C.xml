@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD06AC0A-C7D4-FFC3-2ECF-9C0785E3167C" name="Patrons">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>AE149F12-0AB2-5AF6-44CD-72D33035DC7E</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="parton_id" id="FB46B857-6234-5D10-8AD1-C5CC6221428D">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>ADFDEFC4-E1C6-9B65-44BD-DBB86B726AD2</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB998DB5-C12E-ED43-7383-C460D28CF1EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="C8BBB555-61D7-3AC1-12C8-B29C5755805D">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>BC6670B6-4F76-A50E-D45B-8AAA4857CF26</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>66264C1C-F3E6-9E76-D806-2F39774F5E88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="6F2EA5B1-8975-F97F-AF49-96B8AED92DAC">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>E29BEBBD-6E8D-FC42-6185-DF9CC1C9FA8D</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>66264C1C-F3E6-9E76-D806-2F39774F5E88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_address" id="DC4A2345-7E4C-9DCA-A1F3-E8793F46910E">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>D66B2C36-71D6-B14E-4407-6214DD8DACFA</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C8D74CF9-8BC3-2E1A-5A27-AFC5902484CD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="FF65A92B-7E17-48C9-5CF2-B255A6781262">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>0C320391-C434-4220-BAC2-37270165D546</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BA848E3D-1E5C-A15D-3CD1-7697D1143814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="3B3B080A-189E-54EB-2525-E3A3C6AD7013">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>626FAB5B-58AD-E6A8-B23E-25A5BE4D57E0</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>160B2293-55F8-D768-43FE-7BDEAD459167</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="64EA787B-C0FC-8981-696E-05E0F69DB34D">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>F0015790-E94B-0B84-035D-269DFE61C5D2</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A5B7A3CD-C1E9-CAAB-D404-55A6CFC456A2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="CEF59BFE-EF05-88DB-D344-E8B6ECB5AA15">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>8DD7BA66-4D28-6646-4494-3BBF4B000911</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B6294F4-F979-559C-352B-FC9784CF916D" name="Patrons_PK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>B257836F-90A2-DEA3-01A9-CD4661946FAD</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB46B857-6234-5D10-8AD1-C5CC6221428D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

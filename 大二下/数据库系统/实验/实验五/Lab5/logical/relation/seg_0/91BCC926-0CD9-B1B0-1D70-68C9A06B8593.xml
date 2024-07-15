@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Actor_Quote" directorySegmentName="seg_0" id="91BCC926-0CD9-B1B0-1D70-68C9A06B8593">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:07:52 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="33D1003A-9EB8-D45E-2FAE-910E9A4047DC" value="true"/>
+</engineerTo>
+<sourcePk>25BD899B-0EA3-DADD-AF51-F512A06BE6A8</sourcePk>
+<targetPk>5D1B9083-7A35-FF10-6772-F82318698D2C</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>34E9ABFC-0C14-919D-9A2F-8183B41D0D65</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>02D027BA-31C3-7EE4-FB5B-8260CF6FB813</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7633C5BE-FEF6-BCAB-1162-9561AE8C77BE" name="Film">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:16:08 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="33D1003A-9EB8-D45E-2FAE-910E9A4047DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="6B51AFFB-8F8B-249E-FEA5-BA48F47253FD">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:16:54 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="33D1003A-9EB8-D45E-2FAE-910E9A4047DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year_of_release" id="525CA531-F8CE-A567-C4E3-C6DC62C94905">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:16:54 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="33D1003A-9EB8-D45E-2FAE-910E9A4047DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="length" id="91323976-C134-4796-E8AE-94C3B3A766C4">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:16:54 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="33D1003A-9EB8-D45E-2FAE-910E9A4047DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plot" id="DBB28990-E3EE-2708-4A68-10FF39B8B7A6">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:16:54 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="33D1003A-9EB8-D45E-2FAE-910E9A4047DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="28EB706A-F50C-3BAA-92D3-F2DB91915AC2">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:39:22 UTC</createdTime>
+<generatorID>A6299B53-FD4D-3850-1FA9-04B521FB85BA</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="33D1003A-9EB8-D45E-2FAE-910E9A4047DC" value="true"/>
+</engineerTo>
+<referedAttribute>6BF62DA1-1319-E5A7-B157-2EC8BB60A641</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EEC570D6-7AB7-15C3-356F-52857F38EE1F" name="Film PK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:17:25 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="33D1003A-9EB8-D45E-2FAE-910E9A4047DC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B51AFFB-8F8B-249E-FEA5-BA48F47253FD</attributeRef>
+<attributeRef>525CA531-F8CE-A567-C4E3-C6DC62C94905</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

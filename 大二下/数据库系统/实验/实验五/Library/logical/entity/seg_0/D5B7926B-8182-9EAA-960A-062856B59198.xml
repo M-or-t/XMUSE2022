@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5B7926B-8182-9EAA-960A-062856B59198" name="Books">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 06:38:31 UTC</createdTime>
+<ownerDesignName>Library</ownerDesignName>
+<engineerTo>
+<item key="297AF95D-80C0-7943-5167-BCCF7A298B91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="book_id" id="162E5F57-B143-9682-83BD-576EDBB58444">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 06:39:15 UTC</createdTime>
+<ownerDesignName>Library</ownerDesignName>
+<engineerTo>
+<item key="297AF95D-80C0-7943-5167-BCCF7A298B91" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64964763-2E16-9BD0-9457-CD3A669691B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="035F5478-49E2-B146-9AC0-996991045E07">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 06:40:06 UTC</createdTime>
+<ownerDesignName>Library</ownerDesignName>
+<engineerTo>
+<item key="297AF95D-80C0-7943-5167-BCCF7A298B91" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6462DEC2-F2BE-B584-D0C0-F98924BA4024</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_last_name" id="AD70A1FE-0C42-79FA-B017-0E5EA98DBB34">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 06:40:28 UTC</createdTime>
+<ownerDesignName>Library</ownerDesignName>
+<engineerTo>
+<item key="297AF95D-80C0-7943-5167-BCCF7A298B91" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>66264C1C-F3E6-9E76-D806-2F39774F5E88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_first_name" id="FDE63FD4-80F9-0D31-28AB-3FEDD7A2BBAA">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 06:41:03 UTC</createdTime>
+<ownerDesignName>Library</ownerDesignName>
+<engineerTo>
+<item key="297AF95D-80C0-7943-5167-BCCF7A298B91" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>66264C1C-F3E6-9E76-D806-2F39774F5E88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="DF3E9B71-84A0-CCA3-57AE-2C49F1FDBCD2">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 06:41:26 UTC</createdTime>
+<ownerDesignName>Library</ownerDesignName>
+<engineerTo>
+<item key="297AF95D-80C0-7943-5167-BCCF7A298B91" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AEFFBEFF-91D0-D060-FCF6-4597979EA6A2" name="Books PK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 06:39:47 UTC</createdTime>
+<ownerDesignName>Library</ownerDesignName>
+<engineerTo>
+<item key="297AF95D-80C0-7943-5167-BCCF7A298B91" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>162E5F57-B143-9682-83BD-576EDBB58444</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

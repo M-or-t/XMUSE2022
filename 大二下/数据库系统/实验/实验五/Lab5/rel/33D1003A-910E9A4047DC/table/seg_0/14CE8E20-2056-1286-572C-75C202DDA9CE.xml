@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14CE8E20-2056-1286-572C-75C202DDA9CE" name="Director">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>F11FDCCF-DFBD-664E-F563-CDAE973F4935</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="188571AD-B659-A70A-7F80-6714F70B6689">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>CDCD044F-1B3F-CB8A-8818-C6BD3C1B16F3</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_of_birth" id="D04CABCD-7141-F09F-A3C9-D421E4FFA40E">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>DC9AEB6B-1460-1261-F2E3-74F078543C49</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DC0E810-B6DD-AC7B-7D2B-C324DA8AC560" name="Director_PK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>015AD949-2F66-D8D9-88C0-6C3C1C9B2154</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="188571AD-B659-A70A-7F80-6714F70B6689"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

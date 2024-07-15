@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0D8C70D-F92C-C159-669F-181F74F3F566" name="Film_Actor">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:23:39 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Film_title" id="2BC7AE92-C317-DBE2-7DBB-F6CFFD1B0CA3">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:23:39 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="054E3AAD-1F51-6382-CB99-D456D67B97BC" referredColumn="9F9508F7-F02F-E8B2-B437-E68B073567FF"/>
+</associations>
+</Column>
+<Column name="Film_year_of_release" id="7A210627-498D-D05E-0F72-98D69D3DF680">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:23:39 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="054E3AAD-1F51-6382-CB99-D456D67B97BC" referredColumn="81785A76-27C9-A31E-4347-7B1361E939EA"/>
+</associations>
+</Column>
+<Column name="Actor_name" id="513983DA-A492-3A54-EF02-64F355E05B49">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:23:39 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="444D3E22-521C-BEAF-5B54-042C8B0CF803" referredColumn="D2AC30FF-18E5-873D-11DF-553D64E6CB30"/>
+</associations>
+</Column>
+<Column name="Role" id="5BE24E97-3372-8CCC-937B-030D58A642A7">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:23:39 UTC</createdTime>
+<generatorID>B50FE23C-F0CA-54B9-56BA-CE7D6EF2D8BD</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56D72C27-C8B6-80D0-8C4E-743991EE6A6D" name="Film_Actor_PK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:23:39 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BC7AE92-C317-DBE2-7DBB-F6CFFD1B0CA3"/>
+<colUsage columnID="7A210627-498D-D05E-0F72-98D69D3DF680"/>
+<colUsage columnID="513983DA-A492-3A54-EF02-64F355E05B49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2547F58-EB8C-4A63-DA14-48B183223FD4" name="Film_Actor_Film_FK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:23:39 UTC</createdTime>
+<generatorID>63561CB1-CFD4-9501-1A07-23BE5EEE8FF3</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BC7AE92-C317-DBE2-7DBB-F6CFFD1B0CA3"/>
+<colUsage columnID="7A210627-498D-D05E-0F72-98D69D3DF680"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DA74732-6613-6B1F-C55D-3EFEF8138B02" name="Film_Actor_Actor_FK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:23:39 UTC</createdTime>
+<generatorID>63561CB1-CFD4-9501-1A07-23BE5EEE8FF3</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="513983DA-A492-3A54-EF02-64F355E05B49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

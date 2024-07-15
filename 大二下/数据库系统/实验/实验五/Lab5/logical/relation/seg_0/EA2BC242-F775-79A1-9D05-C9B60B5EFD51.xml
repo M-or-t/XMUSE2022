@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Film_Director" directorySegmentName="seg_0" id="EA2BC242-F775-79A1-9D05-C9B60B5EFD51">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:09:37 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="33D1003A-9EB8-D45E-2FAE-910E9A4047DC" value="true"/>
+</engineerTo>
+<sourcePk>EEC570D6-7AB7-15C3-356F-52857F38EE1F</sourcePk>
+<targetPk>015AD949-2F66-D8D9-88C0-6C3C1C9B2154</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7633C5BE-FEF6-BCAB-1162-9561AE8C77BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F11FDCCF-DFBD-664E-F563-CDAE973F4935</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

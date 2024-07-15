@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDF928A6-AC86-9DA8-EEF2-3D84D9EE1D7F" name="Film_Director">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Film_title" id="43ECEDDF-C0AB-F370-9D62-23F22D55C85E">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE3413CA-67CF-0580-4504-16AB468EE628" referredColumn="9F9508F7-F02F-E8B2-B437-E68B073567FF"/>
+</associations>
+</Column>
+<Column name="Film_year_of_release" id="285D466E-B5E7-1AE8-BDDF-BFB94822618B">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE3413CA-67CF-0580-4504-16AB468EE628" referredColumn="81785A76-27C9-A31E-4347-7B1361E939EA"/>
+</associations>
+</Column>
+<Column name="Director_name" id="18BDB831-573C-93E2-79B5-D32ABFFB72AF">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38F308BA-5F77-F04B-14A8-E71AFEA2A31A" referredColumn="188571AD-B659-A70A-7F80-6714F70B6689"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52CC0798-A598-DA13-92FF-5FA3DA1FF047" name="Film_Director_PK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43ECEDDF-C0AB-F370-9D62-23F22D55C85E"/>
+<colUsage columnID="285D466E-B5E7-1AE8-BDDF-BFB94822618B"/>
+<colUsage columnID="18BDB831-573C-93E2-79B5-D32ABFFB72AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BF9D499-D1D4-2DA9-7288-2547FF38BBC0" name="Film_Director_Film_FK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>EA2BC242-F775-79A1-9D05-C9B60B5EFD51</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43ECEDDF-C0AB-F370-9D62-23F22D55C85E"/>
+<colUsage columnID="285D466E-B5E7-1AE8-BDDF-BFB94822618B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCFE1FE4-B640-E22B-570A-D21A63A21E71" name="Film_Director_Director_FK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>EA2BC242-F775-79A1-9D05-C9B60B5EFD51</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18BDB831-573C-93E2-79B5-D32ABFFB72AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

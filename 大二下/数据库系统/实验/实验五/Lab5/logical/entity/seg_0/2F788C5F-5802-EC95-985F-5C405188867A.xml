@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F788C5F-5802-EC95-985F-5C405188867A" name="ProductionCompany">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:21:17 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="5C61FA07-B8B8-9D0F-E43B-747AD288F8F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="6BF62DA1-1319-E5A7-B157-2EC8BB60A641">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:22:00 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="5C61FA07-B8B8-9D0F-E43B-747AD288F8F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="1A247FD2-15E9-C8B0-7FE7-9D112F3ECC2A">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:22:19 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="5C61FA07-B8B8-9D0F-E43B-747AD288F8F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71D90F07-DB25-A1DA-6C61-8DF25102CCBC" name="company PK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:22:18 UTC</createdTime>
+<ownerDesignName>Lab5</ownerDesignName>
+<engineerTo>
+<item key="5C61FA07-B8B8-9D0F-E43B-747AD288F8F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BF62DA1-1319-E5A7-B157-2EC8BB60A641</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

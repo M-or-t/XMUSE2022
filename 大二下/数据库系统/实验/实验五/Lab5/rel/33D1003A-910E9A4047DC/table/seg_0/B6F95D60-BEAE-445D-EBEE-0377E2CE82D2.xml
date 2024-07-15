@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6F95D60-BEAE-445D-EBEE-0377E2CE82D2" name="Quote">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>02D027BA-31C3-7EE4-FB5B-8260CF6FB813</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="quoteid" id="8113E979-C3ED-781A-1CE8-75FFA63698B5">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>F4D43561-E60B-D461-D97F-932A340098BD</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="content" id="36308C74-5C31-621B-310F-E2EB4AA10CCC">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>4E182C41-A02B-083C-8ECE-F770EA29F18C</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Film_title" id="6378A2C5-745B-B7D3-C535-A0CB61E7D181">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>EC3E3FF6-6FE2-E0CE-FE15-5C8E0E7E5D13</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61DE2DCE-F614-D0B2-6C2C-C46FE84B964C" referredColumn="9F9508F7-F02F-E8B2-B437-E68B073567FF"/>
+</associations>
+</Column>
+<Column name="Film_year_of_release" id="08808D3B-25FF-A28E-4C69-AA98FEB3C638">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>91FCE7DD-E184-462F-FA4E-76D454E8C7BD</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61DE2DCE-F614-D0B2-6C2C-C46FE84B964C" referredColumn="81785A76-27C9-A31E-4347-7B1361E939EA"/>
+</associations>
+</Column>
+<Column name="Actor_name" id="29D6D3C0-4D58-6F5D-2D41-B64ED1936E3D">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>B1CD4D73-1863-B9A4-EFF4-734347796E7F</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4253473-91AF-67DF-7C10-BEB0912DEED0" referredColumn="D2AC30FF-18E5-873D-11DF-553D64E6CB30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE655D3C-5622-1670-0484-712925A1EE6F" name="Quote_PK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>5D1B9083-7A35-FF10-6772-F82318698D2C</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8113E979-C3ED-781A-1CE8-75FFA63698B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7291BF28-5D6A-DA6D-F62F-3A02AC2A009C" name="Quote_Actor_FK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>91BCC926-0CD9-B1B0-1D70-68C9A06B8593</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29D6D3C0-4D58-6F5D-2D41-B64ED1936E3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F6C2611-DF0D-AAA6-526A-F1D17B0CDFE4" name="Quote_Film_FK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 11:16:39 UTC</createdTime>
+<generatorID>E02FCFD5-C48E-29E5-C51D-40333BA61F48</generatorID>
+<ownerDesignName>Lab5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6378A2C5-745B-B7D3-C535-A0CB61E7D181"/>
+<colUsage columnID="08808D3B-25FF-A28E-4C69-AA98FEB3C638"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

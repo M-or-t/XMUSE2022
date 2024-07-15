@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75C7EB6C-CE5F-394C-EDD0-DEC00E344A28" name="Transactions">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>58C7E769-7882-5A44-E24F-0D8520A9D3DF</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="895B021A-D890-B1AE-1ED2-E6E2B171AD21">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>C83B3FBC-909E-4834-A30F-E52AB555EC8E</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB998DB5-C12E-ED43-7383-C460D28CF1EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_date" id="388A4E5B-8FD9-231F-A075-93C7091B20BF">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>94BA2FF5-BCD5-6669-3AEB-98D78E061E3D</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_type" id="CAB48336-3032-3EAF-9A43-29111199C3C2">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>58035CD7-D052-75E3-EEED-6CA8DCA515EF</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB998DB5-C12E-ED43-7383-C460D28CF1EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Books_book_id" id="441AAAD9-C8D8-2320-0947-D060C75A95F2">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>A3B3BAAA-9990-7747-F03A-5C48A622C3A0</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64964763-2E16-9BD0-9457-CD3A669691B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65E06049-07AD-A44B-E4EF-B15B9A249828" referredColumn="5B503FA9-C534-72E7-AEF0-C68D5F798D0E"/>
+</associations>
+</Column>
+<Column name="Patrons_parton_id" id="D7CBA6B6-84A5-60BA-EE17-127165924546">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>43EB9523-4BFB-73B6-607F-7FC1709220E9</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB998DB5-C12E-ED43-7383-C460D28CF1EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5814F1B9-1851-8039-F2A7-BB208271B8EB" referredColumn="FB46B857-6234-5D10-8AD1-C5CC6221428D"/>
+</associations>
+</Column>
+<Column name="Due_Date" id="D6017305-FECB-ACCF-9CB8-24055C2F8042">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>F98AA3F8-588F-2FE6-AA67-97F0EFC225FD</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>65E06049-07AD-A44B-E4EF-B15B9A249828</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8136179-362C-3F4A-1B86-BBA58689EB22" name="Transactions_PK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>250094CD-9ADA-E865-FCF9-A3C1713FFFCD</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="895B021A-D890-B1AE-1ED2-E6E2B171AD21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD2B9D56-2C71-9047-126C-645EAD4A04AC" name="Transactions_Patrons_FK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>0AC431EA-B7F6-E0D1-815B-0116C6596F38</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7CBA6B6-84A5-60BA-EE17-127165924546"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C80B421C-2828-F73A-B9D0-E199349AA697" name="Transactions_Books_FK">
+<createdBy>22685</createdBy>
+<createdTime>2024-05-15 07:00:06 UTC</createdTime>
+<generatorID>877E825A-CBED-1B77-2D64-E9501F437DB0</generatorID>
+<ownerDesignName>Library</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="441AAAD9-C8D8-2320-0947-D060C75A95F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
