@@ -1,8 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Lab5" id="6D00A802-6F30-B3C1-4045-D940BD48E97E" version="3.5">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 07:15:21 UTC</createdTime>
-<ownerDesignName>Lab5</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>6D00A802-6F30-B3C1-4045-D940BD48E97E</designId>
-</OSDM_Design>
+version https://git-lfs.github.com/spec/v1
+oid sha256:3808065fcad05dd04c0ac3dd0ed137cf4d58d675144ea57fc7a705c3cf8336d1
+size 401

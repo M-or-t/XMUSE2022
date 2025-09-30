@@ -1,7 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3D9563DA-178A-BDBB-DEA6-6EE692C3A45B" mainViewID="E23D14C8-746C-E5D3-5ECC-33DEEB090D23">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 06:32:11 UTC</createdTime>
-<ownerDesignName>Library</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
+version https://git-lfs.github.com/spec/v1
+oid sha256:70a83ac7010e50ef49ae7d08a44b40f3c99e888c5eba85e487e46dfe025a21e8
+size 404

@@ -1,8 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Library" id="297AF95D-80C0-7943-5167-BCCF7A298B91" mainViewID="5050951B-D9AF-C5EA-02B1-161BA76048B3">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 06:38:31 UTC</createdTime>
-<ownerDesignName>Library</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
-</relationalModel>
+version https://git-lfs.github.com/spec/v1
+oid sha256:35c8ed26a3a929c709a70c514c1fb227a7f9703b937356aef4717e9b7c3290ef
+size 490

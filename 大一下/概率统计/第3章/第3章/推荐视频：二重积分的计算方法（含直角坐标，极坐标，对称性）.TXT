@@ -1,2 +1,3 @@
-64_二重积分的计算，直角坐标，极坐标，对称性，奇偶对称性，轮换对称性，计算二重积分【小元老师】考研数学，高等数学
-https://www.bilibili.com/video/BV1dx411S7vn?spm_id_from=333.337.search-card.all.click
+version https://git-lfs.github.com/spec/v1
+oid sha256:438806e38d6c782438177169522283497906fc5b6795e2bc8445905c00484f80
+size 198

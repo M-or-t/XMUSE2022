@@ -1,7 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="920C7265-8D58-4BFA-7A1B-739FADE811A8">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 06:32:11 UTC</createdTime>
-<ownerDesignName>Library</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f193ba9a985a7dfb5d5a9a2e6fe36c63e0f227c32e127fb7e4280f44f5c89cb
+size 380

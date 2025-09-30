@@ -1,35 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Involve" directorySegmentName="seg_0" id="877E825A-CBED-1B77-2D64-E9501F437DB0">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 06:53:57 UTC</createdTime>
-<ownerDesignName>Library</ownerDesignName>
-<engineerTo>
-<item key="297AF95D-80C0-7943-5167-BCCF7A298B91" value="true"/>
-</engineerTo>
-<sourcePk>AEFFBEFF-91D0-D060-FCF6-4597979EA6A2</sourcePk>
-<targetPk>250094CD-9ADA-E865-FCF9-A3C1713FFFCD</targetPk>
-<identifying>false</identifying>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>D5B7926B-8182-9EAA-960A-062856B59198</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>58C7E769-7882-5A44-E24F-0D8520A9D3DF</targetEntity>
-<transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<attribute name="Due_Date" id="F98AA3F8-588F-2FE6-AA67-97F0EFC225FD">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 06:57:09 UTC</createdTime>
-<ownerDesignName>Library</ownerDesignName>
-<engineerTo>
-<item key="297AF95D-80C0-7943-5167-BCCF7A298B91" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</attribute>
-</attributes>
-</Relation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e70706626f8177bac4dd2acb0d281384d34d731c3f988901098fdf06489aceb
+size 1525

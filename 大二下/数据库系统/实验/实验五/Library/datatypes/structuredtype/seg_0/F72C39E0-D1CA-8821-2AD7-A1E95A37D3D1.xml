@@ -1,10 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="XMLTYPE" directorySegmentName="seg_0" id="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 06:32:11 UTC</createdTime>
-<ownerDesignName>Library</ownerDesignName>
-<visible>false</visible>
-<predefined>true</predefined>
-<final>false</final>
-<instantiable>true</instantiable>
-</StructuredType>
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fceb71ba188ba5e2f067eab4e762fed7c7d0d0074f32f1ae7b86824407daf85
+size 463

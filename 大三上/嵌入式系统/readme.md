@@ -1,2 +1,3 @@
-实验代码之前没注意删掉了，需要的同学另找仓库看看吧，另外这门课期末考试偏记忆，需要比较好地结合重点大纲和平时做的实验才能取得比较不错的成绩。
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c0d229be6301e932ddec658efabb64ddf2de6e5b92d2655ab847a1ef2f0859b
+size 214

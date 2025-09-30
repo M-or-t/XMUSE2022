@@ -1,17 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE3413CA-67CF-0580-4504-16AB468EE628" containerWithKeyObject="BDF928A6-AC86-9DA8-EEF2-3D84D9EE1D7F" localFKIndex="6BF9D499-D1D4-2DA9-7288-2547FF38BBC0" name="Film_Director_Film_FK">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 11:16:39 UTC</createdTime>
-<generatorID>EA2BC242-F775-79A1-9D05-C9B60B5EFD51</generatorID>
-<ownerDesignName>Lab5</ownerDesignName>
-<referredTableLongName>Film</referredTableLongName>
-<deleteRule>NO ACTION</deleteRule>
-<referredTableID>317F46E8-4721-3ACF-255E-6BF952A6819D</referredTableID>
-<keyObject>5C21CCD4-5C37-FC50-DFC0-636064CECFA5</keyObject>
-<referredKeyID>5C21CCD4-5C37-FC50-DFC0-636064CECFA5</referredKeyID>
-<mandatory>true</mandatory>
-<refColNames>title,year_of_release</refColNames>
-<transferable>true</transferable>
-<rely>false</rely>
-<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
-</FKIndexAssociation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:481eb820b19c8f11363488fb79cb989a5f4e440f3922f1bfa7dba53b0f0e01eb
+size 1060

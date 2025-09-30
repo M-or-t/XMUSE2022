@@ -1,8 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="DF265C20-FD0A-599F-49FF-5660B6BDE042" name="Books" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="297AF95D-80C0-7943-5167-BCCF7A298B91" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Table" objectID="AD06AC0A-C7D4-FFC3-2ECF-9C0785E3167C" name="Patrons" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="297AF95D-80C0-7943-5167-BCCF7A298B91" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Table" objectID="75C7EB6C-CE5F-394C-EDD0-DEC00E344A28" name="Transactions" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="297AF95D-80C0-7943-5167-BCCF7A298B91" propertySourceId="" propertyTargetId=""/>
-   <object objectType="FKIndexAssociation" objectID="65E06049-07AD-A44B-E4EF-B15B9A249828" name="Transactions_Books_FK" seqName="seg_0" containerID="75C7EB6C-CE5F-394C-EDD0-DEC00E344A28" refContainerID="DF265C20-FD0A-599F-49FF-5660B6BDE042" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="297AF95D-80C0-7943-5167-BCCF7A298B91" propertySourceId="DF265C20-FD0A-599F-49FF-5660B6BDE042" propertyTargetId="75C7EB6C-CE5F-394C-EDD0-DEC00E344A28"/>
-   <object objectType="FKIndexAssociation" objectID="5814F1B9-1851-8039-F2A7-BB208271B8EB" name="Transactions_Patrons_FK" seqName="seg_0" containerID="75C7EB6C-CE5F-394C-EDD0-DEC00E344A28" refContainerID="AD06AC0A-C7D4-FFC3-2ECF-9C0785E3167C" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="297AF95D-80C0-7943-5167-BCCF7A298B91" propertySourceId="AD06AC0A-C7D4-FFC3-2ECF-9C0785E3167C" propertyTargetId="75C7EB6C-CE5F-394C-EDD0-DEC00E344A28"/>
-</oracle.dbtools.crest.model.design.relational.RelationalDesign>
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e56e61a2ddfe4ffcd7b6aaa2733d7b82e9f77ccdb9a9ec063e8c8fa30823802
+size 2001

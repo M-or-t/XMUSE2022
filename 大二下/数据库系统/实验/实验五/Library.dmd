@@ -1,8 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Library" id="2781D14F-C261-5129-C1BA-AB56068F2ADD" version="3.5">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 06:32:11 UTC</createdTime>
-<ownerDesignName>Library</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>2781D14F-C261-5129-C1BA-AB56068F2ADD</designId>
-</OSDM_Design>
+version https://git-lfs.github.com/spec/v1
+oid sha256:297910cd382589fe3bc013c5fa438cead79e2e10cbf6d27c3a9a86d682918757
+size 407

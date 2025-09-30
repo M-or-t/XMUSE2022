@@ -1,4 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.datatypes.DataTypesDesign>
-   <object objectType="main_view" objectID="A4B894EF-1E1E-915B-587C-641D6BCE4555" name="DataTypes" visible="false"/>
-</oracle.dbtools.crest.model.design.datatypes.DataTypesDesign>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0f661fdc638369db8ffdf63128c03cbd75e4b2499c02e55e077f967d675eef4
+size 285

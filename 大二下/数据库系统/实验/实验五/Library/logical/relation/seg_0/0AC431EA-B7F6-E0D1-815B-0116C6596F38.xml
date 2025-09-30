@@ -1,20 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Has" directorySegmentName="seg_0" id="0AC431EA-B7F6-E0D1-815B-0116C6596F38">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 06:57:59 UTC</createdTime>
-<ownerDesignName>Library</ownerDesignName>
-<engineerTo>
-<item key="297AF95D-80C0-7943-5167-BCCF7A298B91" value="true"/>
-</engineerTo>
-<sourcePk>B257836F-90A2-DEA3-01A9-CD4661946FAD</sourcePk>
-<targetPk>250094CD-9ADA-E865-FCF9-A3C1713FFFCD</targetPk>
-<identifying>false</identifying>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>AE149F12-0AB2-5AF6-44CD-72D33035DC7E</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>58C7E769-7882-5A44-E24F-0D8520A9D3DF</targetEntity>
-<transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
-</Relation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1839c704b4b23692aff7fa14309dc42a7d786950e1a1f4f3125eb8da7b375069
+size 941

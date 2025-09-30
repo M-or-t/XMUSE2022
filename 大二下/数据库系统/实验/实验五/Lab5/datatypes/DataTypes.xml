@@ -1,15 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="74E16002-1868-2095-7E5B-2C8A7F8D8104" mainViewID="584C985F-961A-8433-9314-93A3EB2DD68A">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 07:15:21 UTC</createdTime>
-<ownerDesignName>Lab5</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<collectionOfRefsPrefix>array_ref_</collectionOfRefsPrefix>
-<collectionPrefix>array_</collectionPrefix>
-<defaultArrayLimit>10</defaultArrayLimit>
-<defaultCollectionType_Kind>ARRAY</defaultCollectionType_Kind>
-<defaultCollectionType_Suffix>_Array</defaultCollectionType_Suffix>
-<embeddedStructuredTypePrefix>inst_</embeddedStructuredTypePrefix>
-<referencePrefix>ref_</referencePrefix>
-<useRoleInAssociationEndAsName>true</useRoleInAssociationEndAsName>
-</DataTypesDesign>
+version https://git-lfs.github.com/spec/v1
+oid sha256:25c5e1c77bc87f854aa592fa552abc1a1774975e8c7cf64fe43b91b327a4ec00
+size 863

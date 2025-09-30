@@ -1,4 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="main_view" objectID="E23D14C8-746C-E5D3-5ECC-33DEEB090D23" name="Logical" visible="false"/>
-</oracle.dbtools.crest.model.design.logical.LogicalDesign>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f5326945494423503e4d6d019e108a511df5b39fe85c99c2a8aca19bf5eb282
+size 275

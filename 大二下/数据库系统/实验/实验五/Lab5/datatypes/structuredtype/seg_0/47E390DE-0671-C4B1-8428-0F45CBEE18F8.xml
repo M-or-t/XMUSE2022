@@ -1,10 +1,3 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="SDO_GEOMETRY" directorySegmentName="seg_0" id="47E390DE-0671-C4B1-8428-0F45CBEE18F8">
-<createdBy>22685</createdBy>
-<createdTime>2024-05-15 07:15:22 UTC</createdTime>
-<ownerDesignName>Lab5</ownerDesignName>
-<visible>false</visible>
-<predefined>true</predefined>
-<final>false</final>
-<instantiable>true</instantiable>
-</StructuredType>
+version https://git-lfs.github.com/spec/v1
+oid sha256:832db9b729f9bd709ce47c00d60d7295df70693f1b2493060cfdeb3de7410501
+size 465
