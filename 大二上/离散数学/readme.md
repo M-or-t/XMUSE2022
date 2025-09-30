@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe07ff479b848a24bdb6bc0c131a93563ee1102982891e433e2c4771c5dd3e24
-size 172
+# 离散数学  
+### 离散数学是ywl老师教的，老师人特别好，上课认真听，考前会发往年卷，课后题作业题好好做，考试就很容易了。

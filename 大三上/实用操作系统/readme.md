@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:52b512cc8b0218bf381fcc84139fa75df4dc9c0d6d827a474a51e01060060cc3
-size 132
+考试题目以王道为主，建议多做做大题，简答基本都是老师上课讲到的，可以多关注书本课后思考题

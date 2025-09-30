@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8be8e659969a2427b136cd823cee1a9fa5e97596cadde121eb0323c51c705d42
-size 144
+推荐关注当年的考研辅导书背完适当练习一下，考试选择题基本是考研原题，大题基本都能被热点押题命中。
